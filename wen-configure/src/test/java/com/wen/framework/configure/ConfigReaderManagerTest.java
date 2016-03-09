@@ -16,10 +16,10 @@ public class ConfigReaderManagerTest {
 	
 	@Test
 	public void testDbConfig(){
-		System.out.println(ConfigManager.getDbHost());
-		System.out.println(ConfigManager.getDbName());
-		System.out.println(ConfigManager.getDbLoginName());
-		System.out.println(ConfigManager.getDbLoginPassword());
+		System.out.println(ConfigManager.getJdbcDriverClass());
+		System.out.println(ConfigManager.getJdbcUrl());
+		System.out.println(ConfigManager.getJdbcUserName());
+		System.out.println(ConfigManager.getJdbcPassword());
 	}
 	
 }
