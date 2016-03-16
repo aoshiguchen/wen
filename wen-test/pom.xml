@@ -23,8 +23,18 @@
     </dependency>
    	<dependency>
    		<groupId>com.wen.framework.configure</groupId>
-  <artifactId>wen-configure</artifactId>
-   <version>0.0.1</version>
+  		<artifactId>wen-configure</artifactId>
+   		<version>0.0.1</version>
+   	</dependency>
+   	<dependency>
+   		<groupId>com.wen.framework.db</groupId>
+  		<artifactId>wen-db</artifactId>
+   		<version>0.0.1</version>
+   	</dependency>
+   	<dependency>
+   		<groupId>com.wen.framework.jdbctemplate</groupId>
+  		<artifactId>wen-jdbctemplate</artifactId>
+   		<version>0.0.1</version>
    	</dependency>
   </dependencies>
   

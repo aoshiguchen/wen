@@ -1,5 +1,6 @@
 package com.wen.framework.jdbctemplate;
 
+
 import java.lang.reflect.Method;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.wen.framework.jdbctemplate.model.IPo;
+import com.wen.framework.util.StringUtil;
 
 public class JdbcOperations implements IJdbcOperations{
 	
@@ -189,5 +191,4 @@ public class JdbcOperations implements IJdbcOperations{
 			
 		});
 	}
-	
 }
