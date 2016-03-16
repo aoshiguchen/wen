@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.wen.framework</groupId>
-  <artifactId>wen-framework</artifactId>
+  <groupId>com.wen.framework.jdbctemplate</groupId>
+  <artifactId>wen-jdbctemplate</artifactId>
   <version>0.0.1</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
-  <name>wen-framework</name>
+  <name>wen-jdbctemplate</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-        <dependency>
+     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
@@ -23,7 +23,7 @@
     </dependency>
   </dependencies>
   
-    <profiles>  
+  <profiles>  
 	<profile>  
 		<id>jdk-1.8</id>  
 		<activation>  
@@ -37,12 +37,4 @@
 		</properties>  
 		</profile>   
 	</profiles>
- 	
-	<modules>
-		<module>../wen-compiler</module>
-		<module>../wen-configure</module>
-		<module>../wen-db</module>
-		<module>../wen-jdbctemplate</module>
-	</modules>
-	
 </project>
