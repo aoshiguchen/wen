@@ -4,7 +4,6 @@ import javax.tools.*;
 
 import com.wen.framework.configure.PathUtil;
 
-@SuppressWarnings("restriction")
 public final class Compiler {
 	
 	private static JavaCompiler compiler;
