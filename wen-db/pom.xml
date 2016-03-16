@@ -21,6 +21,21 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.wen.framework.configure</groupId>
+      <artifactId>wen-configure</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+	<groupId>c3p0</groupId>
+	<artifactId>c3p0</artifactId>
+	<version>0.9.1.2</version>
+	</dependency>
+	<dependency>
+	<groupId>com.hynnet</groupId>
+	<artifactId>sqljdbc4-chs</artifactId>
+	<version>4.0.2206.100</version>
+</dependency>
   </dependencies>
   
    <profiles>  

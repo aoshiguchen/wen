@@ -1,25 +1,22 @@
 package com.wen.framework.configure;
 
+import java.util.Map;
+
 import org.junit.Test;
 
 public class ConfigReaderManagerTest {
 
 	@Test
 	public void testReadAll(){
-		System.out.println(ConfigManager.readAll());
+		ConfigManager configManager = ConfigManager.getInstance();
+		Map<String,String> config = configManager.readAll();
+
+		System.out.println(config);
 	}
 	
 	@Test
 	public void testConfigFilePath(){
-		System.out.println(ConfigManager.getConfigFileFullName());
-	}
-	
-	@Test
-	public void testDbConfig(){
-		System.out.println(ConfigManager.getJdbcDriverClass());
-		System.out.println(ConfigManager.getJdbcUrl());
-		System.out.println(ConfigManager.getJdbcUserName());
-		System.out.println(ConfigManager.getJdbcPassword());
+		System.out.println(ConfigManager.getInstance().getConfigFileFullName());
 	}
 	
 }

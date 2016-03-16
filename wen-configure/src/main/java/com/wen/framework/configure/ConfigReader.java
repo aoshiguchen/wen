@@ -10,7 +10,6 @@ public class ConfigReader implements IConfigReader{
 	private Map<String,String> config = null;
 	
 	private ConfigReader(){
-		
 	}
 	
 	public static synchronized ConfigReader getInstance(){
@@ -25,7 +24,7 @@ public class ConfigReader implements IConfigReader{
 		IConfigReader configReader = null;
 		
 		if(null == config){
-			switch (ConfigManager.getConfigFileType()) {
+			switch (ConfigManager.getInstance().getConfigFileType()) {
 				case TXT:
 					configReader = ConfigReaderFactory.getTxtConfigReader();
 					break;

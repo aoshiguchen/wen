@@ -24,7 +24,7 @@ public final class PropConfigReaderImpl implements IConfigReader{
 		Properties prop = new Properties();
 
 		try {
-			prop.load(new FileInputStream(ConfigManager.getConfigFileFullName()));
+			prop.load(new FileInputStream(ConfigManager.getInstance().getConfigFileFullName()));
 			
 			for(Object key : prop.keySet()){
 				config.put((String)key,(String)prop.getProperty((String)key));
