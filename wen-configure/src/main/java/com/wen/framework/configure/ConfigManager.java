@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.wen.framework.configure.ex.ConfigReaderException;
+import com.wen.framework.util.PathUtil;
 
 public final class ConfigManager {
 	
@@ -75,6 +76,8 @@ public final class ConfigManager {
 			break;
 		case WEB_ROOT:
 			root = PathUtil.getWebRoot();
+		case RESOURCE_ROOT:
+			root = PathUtil.getResourceRoot();
 			break;
 		}
 		

@@ -6,7 +6,9 @@ public enum PathTypeEnum {
 	
 	CLASS_PATH_ROOT("classpath"),
 	
-	WEB_ROOT("web");
+	WEB_ROOT("web"),
+	
+	RESOURCE_ROOT("resource");
 	
 	private String name;
 	

@@ -2,7 +2,7 @@ package com.wen.framework.compiler;
 
 import javax.tools.*;
 
-import com.wen.framework.configure.PathUtil;
+import com.wen.framework.util.PathUtil;
 
 public final class Compiler {
 	

@@ -2,6 +2,8 @@ package com.wen.framework.configure;
 
 import org.junit.Test;
 
+import com.wen.framework.util.PathUtil;
+
 public class PathUtilTest {
 
 	@Test

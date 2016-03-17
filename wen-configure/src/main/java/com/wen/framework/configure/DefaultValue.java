@@ -2,7 +2,7 @@ package com.wen.framework.configure;
 
 public final class DefaultValue {
 
-	private PathTypeEnum configFilePathType = PathTypeEnum.PROJECT_ROOT;
+	private PathTypeEnum configFilePathType = PathTypeEnum.RESOURCE_ROOT;
 	private String configFileName = "app.properties";
 	private String configFilePath = "";
 	private FileTypeEnum configFileType = FileTypeEnum.PROP;

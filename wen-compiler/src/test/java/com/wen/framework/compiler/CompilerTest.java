@@ -3,7 +3,7 @@ package com.wen.framework.compiler;
 
 import org.junit.Test;
 
-import com.wen.framework.configure.PathUtil;
+import com.wen.framework.util.PathUtil;
 
 public class CompilerTest {
 
