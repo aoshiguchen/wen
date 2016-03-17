@@ -2,6 +2,7 @@ package com.wen.framework.jdbctemplate;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public abstract class PreparedStatementCallback<T> implements IJdbcCallback<T>{
 
@@ -14,9 +15,11 @@ public abstract class PreparedStatementCallback<T> implements IJdbcCallback<T>{
 	public T execute() {
 		PreparedStatement pstm = null;
 		Object[] params = this.getParams();
+		Connection conn = getConnection();
+		
 		T res = null;
 		try {
-			pstm = getConnection().prepareStatement(this.getSql());
+			pstm = conn.prepareStatement(this.getSql());
 			
 			for(int i = 0;i < params.length;i++){
 				pstm.setObject(i + 1, params[i]);
@@ -26,6 +29,12 @@ public abstract class PreparedStatementCallback<T> implements IJdbcCallback<T>{
 			
 		} catch (Exception e) {
 			e.printStackTrace();
+		}finally{
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 		
 		return res;

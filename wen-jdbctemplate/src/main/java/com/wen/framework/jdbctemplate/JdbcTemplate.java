@@ -1,7 +1,6 @@
 package com.wen.framework.jdbctemplate;
 
 import static com.wen.framework.jdbctemplate.util.SqlUtil.*;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
