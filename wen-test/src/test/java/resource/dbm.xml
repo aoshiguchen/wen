@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<dbm>
+
+	<mapping id="dept">
+		<table>dept</table>
+		<class>com.wen.framework.test.model.Dept</class>
+	</mapping>
+	
+	<mapping id="user">
+		<table>user</table>
+		<class>com.wen.framework.test.model.User</class>
+	</mapping>
+
+
+</dbm>

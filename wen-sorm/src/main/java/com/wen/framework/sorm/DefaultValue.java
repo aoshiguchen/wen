@@ -2,6 +2,7 @@ package com.wen.framework.sorm;
 
 import com.wen.framework.commons.FileTypeEnum;
 import com.wen.framework.commons.PathTypeEnum;
+import com.wen.framework.util.PathUtil;
 
 public class DefaultValue {
 	
@@ -54,6 +55,26 @@ public class DefaultValue {
 
 	public void setConfigFileType(FileTypeEnum configFileType) {
 		this.configFileType = configFileType;
+	}
+	
+	public String getConfigFileFullName(){
+		String root = "";
+		
+		switch (getDbmFilePathType()) {
+		case CLASS_PATH_ROOT:
+			root = PathUtil.getClassPathRoot();
+			break;
+		case PROJECT_ROOT:
+			root = PathUtil.getProjectRoot();
+			break;
+		case WEB_ROOT:
+			root = PathUtil.getWebRoot();
+		case RESOURCE_ROOT:
+			root = PathUtil.getResourceRoot();
+			break;
+		}
+		
+		return root + getConfigFilePath() + getConfigFileName();
 	}
 
 	@Override
