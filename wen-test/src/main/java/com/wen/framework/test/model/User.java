@@ -1,7 +1,8 @@
 package com.wen.framework.test.model;
 
-import com.wen.framework.jdbctemplate.model.IJo;
-import com.wen.framework.jdbctemplate.model.IPo;
+import com.wen.framework.commons.model.IJo;
+import com.wen.framework.commons.model.IPo;
+
 
 public class User implements IPo {
 

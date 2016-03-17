@@ -2,8 +2,9 @@ package com.wen.framework.dao.impl;
 
 import java.util.List;
 import java.util.Map;
+
+import com.wen.framework.commons.model.IPo;
 import com.wen.framework.dao.util.DbUtil;
-import com.wen.framework.jdbctemplate.model.IPo;
 import com.wen.framework.util.ClassUtil;
 
 public class DefaultUpdateDaoImpl extends AbstractUpdateDaoImpl{

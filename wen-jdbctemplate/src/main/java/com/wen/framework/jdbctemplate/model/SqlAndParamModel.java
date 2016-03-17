@@ -1,5 +1,7 @@
 package com.wen.framework.jdbctemplate.model;
 
+import com.wen.framework.commons.model.IPo;
+
 public class SqlAndParamModel {
 	
 	private String sql;

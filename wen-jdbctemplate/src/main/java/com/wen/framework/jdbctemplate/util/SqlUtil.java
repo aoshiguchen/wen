@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.wen.framework.commons.model.IPo;
 import com.wen.framework.jdbctemplate.SeqObject;
-import com.wen.framework.jdbctemplate.model.IPo;
 import com.wen.framework.jdbctemplate.model.SqlAndParamList;
 import com.wen.framework.jdbctemplate.model.SqlAndParamMap;
 import com.wen.framework.jdbctemplate.model.SqlAndParamModel;

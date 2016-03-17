@@ -1,4 +1,4 @@
-package com.wen.framework.configure;
+package com.wen.framework.commons;
 
 public enum PathTypeEnum {
 	

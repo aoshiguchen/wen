@@ -1,8 +1,8 @@
 package com.wen.framework.dao.proxy;
 
+import com.wen.framework.commons.model.IPo;
 import com.wen.framework.dao.IUpdatable;
 import com.wen.framework.dao.impl.DefaultUpdateDaoImpl;
-import com.wen.framework.jdbctemplate.model.IPo;
 
 public class DefaultUpdateDao extends AbstractUpdateDao{
 

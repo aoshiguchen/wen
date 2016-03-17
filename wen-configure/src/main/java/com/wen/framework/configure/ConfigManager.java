@@ -3,6 +3,8 @@ package com.wen.framework.configure;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.wen.framework.commons.FileTypeEnum;
+import com.wen.framework.commons.PathTypeEnum;
 import com.wen.framework.configure.ex.ConfigReaderException;
 import com.wen.framework.util.PathUtil;
 

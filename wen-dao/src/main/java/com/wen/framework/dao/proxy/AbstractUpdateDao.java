@@ -3,8 +3,8 @@ package com.wen.framework.dao.proxy;
 import java.util.List;
 import java.util.Set;
 
+import com.wen.framework.commons.model.IPo;
 import com.wen.framework.dao.IUpdatable;
-import com.wen.framework.jdbctemplate.model.IPo;
 
 public abstract class AbstractUpdateDao implements IUpdatable{
 	

@@ -43,6 +43,11 @@
 		<module>../wen-configure</module>
 		<module>../wen-db</module>
 		<module>../wen-jdbctemplate</module>
+		<module>../wen-commons</module>
+		<module>../wen-dao</module>
+		<module>../wen-sorm</module>
+		<module>../wen-test</module>
+		<module>../wen-util</module>
 	</modules>
 	
 </project>

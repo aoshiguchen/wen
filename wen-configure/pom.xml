@@ -27,6 +27,11 @@
       <artifactId>wen-util</artifactId>
       <version>0.0.1</version>
     </dependency>
+     <dependency>
+      <groupId>com.wen.framework.commons</groupId>
+      <artifactId>wen-commons</artifactId>
+      <version>0.0.1</version>
+    </dependency>
   </dependencies>
   
   <profiles>  

@@ -2,9 +2,7 @@ package com.wen.framework.jdbctemplate;
 
 import java.sql.Connection;
 import java.util.List;
-import java.util.Map;
-
-import com.wen.framework.jdbctemplate.model.IPo;
+import com.wen.framework.commons.model.IPo;
 
 public interface IJdbcOperations {
 

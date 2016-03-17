@@ -3,9 +3,9 @@ package com.wen.framework.dao.util;
 import java.util.List;
 import java.util.Map;
 
+import com.wen.framework.commons.model.IPo;
 import com.wen.framework.db.DataSource;
 import com.wen.framework.jdbctemplate.JdbcTemplate;
-import com.wen.framework.jdbctemplate.model.IPo;
 
 public class DbUtil {
 	

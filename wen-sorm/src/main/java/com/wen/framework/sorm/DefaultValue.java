@@ -1,15 +1,15 @@
-package com.wen.framework.configure;
+package com.wen.framework.sorm;
 
 import com.wen.framework.commons.FileTypeEnum;
 import com.wen.framework.commons.PathTypeEnum;
 
-public final class DefaultValue {
-
-	private PathTypeEnum configFilePathType = PathTypeEnum.RESOURCE_ROOT;
-	private String configFileName = "app.properties";
+public class DefaultValue {
+	
+	private PathTypeEnum dbmFilePathType = PathTypeEnum.RESOURCE_ROOT;
+	private String configFileName = "dbm.xml";
 	private String configFilePath = "";
-	private FileTypeEnum configFileType = FileTypeEnum.PROP;
-
+	private FileTypeEnum configFileType = FileTypeEnum.XML;
+	
 	private static DefaultValue instance = null;
 
 	private DefaultValue() {
@@ -22,6 +22,14 @@ public final class DefaultValue {
 		}
 
 		return instance;
+	}
+
+	public PathTypeEnum getDbmFilePathType() {
+		return dbmFilePathType;
+	}
+
+	public void setDbmFilePathType(PathTypeEnum dbmFilePathType) {
+		this.dbmFilePathType = dbmFilePathType;
 	}
 
 	public String getConfigFileName() {
@@ -48,19 +56,12 @@ public final class DefaultValue {
 		this.configFileType = configFileType;
 	}
 
-	public PathTypeEnum getConfigFilePathType() {
-		return configFilePathType;
-	}
-
-	public void setConfigFilePathType(PathTypeEnum configFilePathType) {
-		this.configFilePathType = configFilePathType;
-	}
-
 	@Override
 	public String toString() {
-		return "DefaultValue [configFilePathType=" + configFilePathType
+		return "DefaultValue [dbmFilePathType=" + dbmFilePathType
 				+ ", configFileName=" + configFileName + ", configFilePath="
 				+ configFilePath + ", configFileType=" + configFileType + "]";
 	}
+	
 	
 }

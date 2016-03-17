@@ -1,4 +1,4 @@
-package com.wen.framework.jdbctemplate.model;
+package com.wen.framework.commons.model;
 
 
 
