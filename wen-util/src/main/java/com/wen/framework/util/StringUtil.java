@@ -1,5 +1,7 @@
 package com.wen.framework.util;
 
+import java.util.UUID;
+
 
 public final class StringUtil {
 	
@@ -30,4 +32,8 @@ public final class StringUtil {
 		return null == str || str.trim().length() == 0;
 	}
 	
+	public static String getRandomUuidString(){
+		
+		return UUID.randomUUID().toString();
+	}
 }
