@@ -10,7 +10,7 @@ public class DataSourceTest {
 
 	@Test
 	public void testConnection() throws SQLException{
-		System.out.println(DataSource.getInstance().getConnection());
+//		System.out.println(DataSource.getInstance().getConnection());
 	}
 
 }

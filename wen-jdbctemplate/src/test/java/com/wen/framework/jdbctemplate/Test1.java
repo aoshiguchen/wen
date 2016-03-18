@@ -11,11 +11,11 @@ public class Test1 {
 
 	@Test
 	public void Test1(){
-		String sql = "select * from user where id = :id";
-		Map<String,Object> map = new HashMap<>();
-		map.put("id",1);
-		
-		System.out.println(sqlAndParamMapToSqlAndParamList(new SqlAndParamMap(sql, map)));
+//		String sql = "select * from user where id = :id";
+//		Map<String,Object> map = new HashMap<>();
+//		map.put("id",1);
+//		
+//		System.out.println(sqlAndParamMapToSqlAndParamList(new SqlAndParamMap(sql, map)));
 		
 	}
 	

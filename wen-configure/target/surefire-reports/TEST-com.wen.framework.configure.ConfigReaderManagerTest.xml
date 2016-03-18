@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.wen.framework.configure.ConfigReaderManagerTest" time="0" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.wen.framework.configure.ConfigReaderManagerTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_60\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="G:\编程练习\java\spring\space3\wen-framework"/>
+    <property name="user.dir" value="G:\运行环境\git\wen\wen-framework"/>
     <property name="java.runtime.version" value="1.8.0_60-b27"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_60\lib\endorsed"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="G:\编程练习\java\spring\space3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4625719290406325064.tmp"/>
+    <property name="classworlds.conf" value="G:\编程练习\java\spring\space3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf491906997003306317.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_60/bin/client;C:/Program Files (x86)/Java/jre1.8.0_60/bin;C:/Program Files (x86)/Java/jre1.8.0_60/lib/i386;E:\Program Files\nodejs;E:\Program Files\sencha\Sencha\Cmd\5.1.2.52;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;\win32;E:\Program Files\sysbase\Shared\Web Targets;E:\Program Files\sysbase\Shared\PowerBuilder;E:\PJ\HC\WPRO_V3\Code\SHHC_SHARE;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\Meteor;E:\PJ\HC\WPRO_V3.5\Code\SHHC_SHARE;F:\运行环境\apache-ant-1.9.6\bin;E:\Program Files\nodejs;E:\Program Files\mingw32\bin;E:\Program Files\Java_x64\jdk1.7.0_75\bin;E:\Program Files\Java_x64\jre7\bin;E:\Program Files\apache-maven-3.3.1-bin\apache-maven-3.3.1\bin;E:\path;C:\Program Files (x86)\Shuame\3.2.2.157;E:\OpenSource\dlib-18.16\dlib;C:\Users\Administrator\AppData\Local\atom\bin;G:\运行环境\cmake\bin;G:\运行环境\litesql\0.3.16\bin;G:\Source Lib\Others Source\编译原理\解析器\语法分析\javacc-4.0\javacc-4.0\bin;;.;;G:\编程练习\java\spring\sts-bundle\sts-3.6.4.RELEASE;;.;;.;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_60/bin/client;C:/Program Files (x86)/Java/jre1.8.0_60/bin;C:/Program Files (x86)/Java/jre1.8.0_60/lib/i386;E:\Program Files\nodejs;E:\Program Files\sencha\Sencha\Cmd\5.1.2.52;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;\win32;E:\Program Files\sysbase\Shared\Web Targets;E:\Program Files\sysbase\Shared\PowerBuilder;E:\PJ\HC\WPRO_V3\Code\SHHC_SHARE;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\Meteor;E:\PJ\HC\WPRO_V3.5\Code\SHHC_SHARE;F:\运行环境\apache-ant-1.9.6\bin;E:\Program Files\nodejs;E:\Program Files\mingw32\bin;E:\Program Files\Java_x64\jdk1.7.0_75\bin;E:\Program Files\Java_x64\jre7\bin;G:\运行环境\apache-maven-3.3.9\bin;E:\path;C:\Program Files (x86)\Shuame\3.2.2.157;E:\OpenSource\dlib-18.16\dlib;C:\Users\Administrator\AppData\Local\atom\bin;G:\运行环境\cmake\bin;G:\运行环境\litesql\0.3.16\bin;G:\Source Lib\Others Source\编译原理\解析器\语法分析\javacc-4.0\javacc-4.0\bin;;.;;G:\编程练习\java\spring\sts-bundle\sts-3.6.4.RELEASE;;.;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jre1.8.0_60"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s G:\运行环境\apache-maven-3.3.9\conf\settings.xml install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s G:\运行环境\apache-maven-3.3.9\conf\settings.xml package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;G:\运行环境\java\java8_x86\jre\lib\tools.jar"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="G:\编程练习\java\spring\space3\wen-framework\EMBEDDED"/>
+    <property name="maven.home" value="G:\运行环境\git\wen\wen-framework\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,7 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.wen.framework.configure.ConfigReaderManagerTest" name="com.wen.framework.configure.ConfigReaderManagerTest.testDbConfig" time="0"/>
-  <testcase classname="com.wen.framework.configure.ConfigReaderManagerTest" name="com.wen.framework.configure.ConfigReaderManagerTest.testReadAll" time="0"/>
-  <testcase classname="com.wen.framework.configure.ConfigReaderManagerTest" name="com.wen.framework.configure.ConfigReaderManagerTest.testConfigFilePath" time="0"/>
+  <testcase classname="com.wen.framework.configure.ConfigReaderManagerTest" name="testConfigFilePath" time="0"/>
+  <testcase classname="com.wen.framework.configure.ConfigReaderManagerTest" name="testReadAll" time="0"/>
 </testsuite>
